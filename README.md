@@ -2,7 +2,7 @@
 install and run the arm package on the ROS system.
 # Our first task is to install and run the arm package on the ROS system.
 ***
-- Add the “arduino_robot_arm” package to “src” folder
+##- Add the “arduino_robot_arm” package to “src” folder
 	$ cd ~/catkin_ws/src
 	$ sudo apt install git
 	$ git clone https://github.com/smart-methods/arduino_robot_arm 
