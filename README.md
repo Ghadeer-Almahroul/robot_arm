@@ -35,5 +35,20 @@ Our first task is to install and run the arm package on the ROS system.
 `$ roslaunch robot_arm_pkg check_motors.launch`
 
 ### Controlling the motors in Gazebo simulation
-Download the Gazebo program
 
+**1. Download the Gazebo program.**
+
+**2.Run the following instructions to use gazebo:**
+
+$ roslaunch robot_arm_pkg check_motors.launch
+
+$ roslaunch robot_arm_pkg check_motors_gazebo.launch
+
+$ rosrun robot_arm_pkg joint_states_to_gazebo.py
+
+You may need to change the permission 
+
+	$ cd catkin/src/arduino_robot_arm/robot_arm_pkg/scripts
+	
+	$ sudo chmod +x joint_states_to_gazebo.py
+	
