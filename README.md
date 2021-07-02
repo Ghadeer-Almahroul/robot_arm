@@ -34,5 +34,6 @@ Our first task is to install and run the arm package on the ROS system.
 
 `$ roslaunch robot_arm_pkg check_motors.launch`
 
-### Download the Gazebo program
+### Controlling the motors in Gazebo simulation
+Download the Gazebo program
 
