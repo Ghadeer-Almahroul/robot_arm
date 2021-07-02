@@ -51,4 +51,12 @@ Our first task is to install and run the arm package on the ROS system.
 `$ cd catkin/src/arduino_robot_arm/robot_arm_pkg/scripts`
 	
 `$ sudo chmod +x joint_states_to_gazebo.py`
+
+### Controlling the robot arm by Moveit.
+
+$ roslaunch moveit_setup_assistant setup_assistant.launch
+
+$ roslaunch moveit_pkg demo.launch
+
+
 	
