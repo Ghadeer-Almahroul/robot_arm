@@ -30,11 +30,11 @@ Our first task is to install and run the arm package on the ROS system.
 
 `$ catkin_make`
 
-### Controlling the robot arm by joint_state_publisher
+### Controlling the robot arm by joint_state_publisher:
 
 `$ roslaunch robot_arm_pkg check_motors.launch`
 
-### Controlling the motors in Gazebo simulation
+### Controlling the motors in Gazebo simulation:
 
 **1. Download the Gazebo program.**
 
@@ -52,7 +52,7 @@ Our first task is to install and run the arm package on the ROS system.
 	
 `$ sudo chmod +x joint_states_to_gazebo.py`
 
-### Controlling the robot arm by Moveit.
+### Controlling the robot arm by Moveit:
 
 `$ roslaunch moveit_setup_assistant setup_assistant.launch`
 
