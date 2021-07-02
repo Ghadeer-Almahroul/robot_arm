@@ -2,6 +2,8 @@
 Our first task is to install and run the arm package on the ROS system.
 
 ***
+### Installing the package (arduino_robot_arm)
+
 **- Add the “arduino_robot_arm” package to “src” folder**
 
     `$ cd ~/catkin_ws/src`
@@ -31,4 +33,6 @@ Our first task is to install and run the arm package on the ROS system.
 ### Controlling the robot arm by joint_state_publisher
 
 `$ roslaunch robot_arm_pkg check_motors.launch`
+
+### Download the Gazebo program
 
