@@ -54,12 +54,10 @@ Our first task is to install and run the arm package on the ROS system.
 
 ### Controlling the robot arm by Moveit.
 
-Moveit in Rviz
+**1. Moveit in Rviz**
 
 `$ roslaunch moveit_setup_assistant setup_assistant.launch`
 
 `$ roslaunch moveit_pkg demo.launch`
 
-
-
-	
+**2. Moveit in Gazebo**
