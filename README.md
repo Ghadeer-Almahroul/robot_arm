@@ -61,3 +61,5 @@ Our first task is to install and run the arm package on the ROS system.
 `$ roslaunch moveit_pkg demo.launch`
 
 **2. Moveit in Gazebo**
+
+`$ roslaunch moveit_pkg demo_gazebo.launch`
